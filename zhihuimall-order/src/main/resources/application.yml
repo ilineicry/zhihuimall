@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: root
-    password: root
+    username: 
+    password: 
     url: jdbc:mysql://192.168.29.128:3306/zhihuimall_oms
     driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
