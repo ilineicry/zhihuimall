@@ -15,6 +15,9 @@
         <module>zhihuimall-order</module>
         <module>zhihuimall-product</module>
         <module>zhihuimall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>zhihuimall-common</module>
     </modules>
 
     <build>
