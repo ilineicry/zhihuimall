@@ -2,32 +2,12 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/zhihuimall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-    alicloud:
-      access-key: LTAI4GGPXE2Xz8ibLptSdsY8
-      secret-key: 2cSxCvsOQO1Wt9NSkrSUIosZAMeUi4
-      oss:
-        endpoint: oss-cn-chengdu.aliyuncs.com
-  thymeleaf:
-    cache: false
-
-
+    url: jdbc:mysql://192.168.29.128:3306/zhihuimall_pms
+    driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
-      logic-delete-value: 1
-      logic-not-delete-value: 0
 server:
   port: 10000
-
-logging:
-  level:
-    com.sidaodin.zhihuimall: debug
-
