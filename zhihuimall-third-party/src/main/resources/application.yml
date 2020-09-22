@@ -4,12 +4,12 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
     alicloud:
-      access-key: LTAI4GGPXE2Xz8ibLptSdsY8
-      secret-key: 2cSxCvsOQO1Wt9NSkrSUIosZAMeUi4
+      access-key: 
+      secret-key: 
       oss:
-        endpoint: oss-cn-chengdu.aliyuncs.com
-        bucket: zhihuimall
-
+        endpoint: 
+        bucket: 
+        
   application:
     name: zhihuimall-third-party
 
