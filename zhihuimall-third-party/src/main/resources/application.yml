@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI4GGPXE2Xz8ibLptSdsY8
+      secret-key: 2cSxCvsOQO1Wt9NSkrSUIosZAMeUi4
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: zhihuimall
+
+  application:
+    name: zhihuimall-third-party
+
+server:
+  port: 30000

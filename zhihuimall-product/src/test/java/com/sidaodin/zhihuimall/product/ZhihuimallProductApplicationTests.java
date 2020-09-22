@@ -1,26 +1,15 @@
 package com.sidaodin.zhihuimall.product;
 
-import com.sidaodin.zhihuimall.product.entity.BrandEntity;
-import com.sidaodin.zhihuimall.product.service.BrandService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
 @SpringBootTest
 class ZhihuimallProductApplicationTests {
 
-    @Autowired
-    BrandService brandService;
-
-    @Test
-    void contextLoads() {
-//        BrandEntity brandEntity = new BrandEntity();
-//        brandEntity.setDescript("");
-//        brandEntity.setName("华为");
-//        brandService.save(brandEntity);
-//        System.out.println("保存成功……");
-
-
-    }
 
 }
